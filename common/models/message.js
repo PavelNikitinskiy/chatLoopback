@@ -1,4 +1,4 @@
-odule.exports = function(Message) {
+module.exports = function(Message) {
 
   Message.sendmessage = function (message, cb) {
     Message.create({
