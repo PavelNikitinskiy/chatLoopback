@@ -16,7 +16,7 @@ odule.exports = function(Message) {
         });
 
       });
-  },
+  }
   Message.remoteMethod('sendmessage', {
     accepts: [
       {arg: 'message', type:'object', http:{source: 'body'}}
